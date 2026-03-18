@@ -1,0 +1,14 @@
+{
+  "name": "my-scss-project",
+  "private": true,
+  "scripts": {
+    "sass": "sass scss:css --watch",
+    "serve": "live-server",
+    "dev": "concurrently \"npm run sass\" \"npm run serve\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "live-server": "^1.2.2",
+    "sass": "^1.70.0"
+  }
+}

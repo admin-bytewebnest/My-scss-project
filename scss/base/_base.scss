@@ -1,0 +1,17 @@
+// Файл глобальных стилей
+body {
+    background-color: #fff; // Заливка фона
+    color: black; //Цвет текста
+}
+
+a {
+    color: inherit; //Наследовать цвет родителя
+    text-decoration: none;
+}
+.container {
+    // position: relative; /*Указывает абсолютному блоку его место координат по умолчанию от который исходить */
+    max-width: 1200px; //Ширина контейнера
+    // border: solid 1px white;
+    height: 100%;
+    margin:auto; //Внешний отступ
+}
